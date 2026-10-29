@@ -1,0 +1,27 @@
+abs()	Return the absolute value of a number.
+bin()	Return a string representing the number in binary.
+chr()	Return a character for the Unicode (and ASCII) value passed in.
+dir()	Return a list of methods on this object.
+enumerate()	Return an iterator over a list of (index, value) pairs.
+filter()	Repeatedly run a function on items of a list filtering some out.
+float()	Convert a number or string to a floating-point value.
+help()	Get help on a data type.
+hex()	Return the hexadecimal representation of a number.
+input()	Get input from the keyboard and return that string.
+int()	Convert a floating point or string to an integer value.
+isinstance()	Return true if an object is an instance of a class.
+len()	Return the length of an iterable, like a list or string.
+map()	Run a function on every value in an iterable, returning the results.
+max()	Return the maximum of the arguments or of an iterable.
+min()	Return the minimum of the arguments or of an iterable.
+ord()	Return the Unicode value (code point) for a given character.
+pow()	Return a base value raised to an exponent.
+print()	Print to the console.
+range()	Return an iterator that runs over a range of values.
+reversed()	Return an iterator over a reversed version of the argument.
+round()	Round a number to the nearest whole number.
+sorted()	Return a sorted version of an iterable.
+str()	Convert a value to a string.
+sum()	Return the sum of all arguments and/or of an iterable.
+super()	Get access to an object’s superclass.
+zip()	Merge parallel lists into a dictionary.
