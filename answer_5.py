@@ -1,11 +1,10 @@
-file = open("text.txt1", "r")
-text=file.read()
-file.close
+with open("text.txt", "r") as file:
+    text=file.read()
 word_count={}
-word=text.split()
-for i in word:
-    if i in word_count:
-        word_count[i] +=1
+words=text.split()
+for word in words:
+    if word in word_count:
+        word_count[word]+=1
     else:
-        word_count[i]=1
+        word_count[word]=1
 print(word_count)
